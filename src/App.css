@@ -1,38 +1,94 @@
-.App {
+.react-datepicker__input-container input { 
+  width: 119%; 
+  border-color: rgb(255, 255, 255);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-top: 18%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
+
+.react-datepicker-popper {
+  overflow: visible; 
+  z-index: 2147483647 !important;
+}
+
+.react-datepicker {
+  z-index: 3 !important;
+}
+
+.lel{
+  padding-top: 5%;
+  padding-right: 0%;
+  padding-bottom: 1%;
+  padding-left: 6%;
+  line-height: 1.5;
+  height: fit-content;
+  color: #000000;
   text-align: center;
+  white-space: nowrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calendarControl{
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.containerMagic{
+  padding-right: 5%;
+  border: 1px solid #dee2e6!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.radious{
+  padding: 1% 3%;
+  overflow: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.dragButton{
+  padding: 1% 1%;
+  overflow: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rectangule{
+  padding-top: 1%;
+  padding-right: 135%;
+  padding-bottom: 1%;
+  padding-left: 0%;
+  overflow: auto;
+}
+
+.imgContainer{/*
+  padding-top: 1%;
+  padding-right: 0%;
+  padding-bottom: 1%;
+  padding-left: 0%;*/
+  height: fit-content;
+  width: fit-content;
+  padding-right: 0%;
+  overflow: auto;
+}
+
+.datePickerContainer{
+  padding-top: 1%;
+  padding-right: 19%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  overflow: auto;
+}
+
+.dateRow{
+  padding-top: 1%;
+  padding-right: 19%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  flex-grow: 4;
+  overflow: auto;
 }
